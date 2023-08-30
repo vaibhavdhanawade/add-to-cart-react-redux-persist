@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # react-redux-persist
 react-redux-persist example
 >>>>>>> 0dc3b09024ea5d1a96cd33c8ee961db540c8aaff
+=======
+# add-to-cart-react-redux-persist
+Product listing with Search filter &amp; Cart with redux implementation
+>>>>>>> 32e5191ee50f7a7cd266f2829a5a850c250ca3c5
