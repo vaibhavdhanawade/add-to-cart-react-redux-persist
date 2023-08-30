@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { removeFromCart, increaseItemQuantity, descreaseItemQuantity } from '../../features/cart/cartSlice';
 
 function CartItem({item}) {
@@ -9,10 +9,10 @@ function CartItem({item}) {
   return (
     <div class="item">
         <div class="image">
-        <img src={item.images} style={{width:"100px" , height:"100px"}} />
+        <img src={item.images} style={{width:"100px" , height:"100px"}} alt="" />
         </div>
         <div class="content">
-        <a class="header">{item.title}</a>
+        <p class="header">{item.title}</p>
         <div class="meta">
             <span class="cinema">$ {item.price}</span>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Image, Icon, Button, Rating, Divider } from 'semantic-ui-react';
+import { Card, Image, Icon, Button, Rating } from 'semantic-ui-react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../features/cart/cartSlice';
 const ProductCard = ({ product }) => {
